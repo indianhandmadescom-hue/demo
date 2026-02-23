@@ -1,24 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>CityCare Home Services</title>
+  <title>Sharma Electronics | Home Appliances & Repair</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f2f2f2;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
     }
+
+    header {
+      background: linear-gradient(135deg, #0a5bd3, #003d99);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
     .container {
-      max-width: 600px;
+      max-width: 1000px;
       margin: auto;
-      background: white;
       padding: 20px;
     }
-    h1 {
-      color: #0a5bd3;
+
+    .section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 10px;
     }
+
+    .section h2 {
+      color: #0a5bd3;
+      margin-bottom: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #f9fafb;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      border: 1px solid #e1e5ea;
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+
     .btn {
       display: block;
       margin: 12px 0;
@@ -30,34 +77,84 @@
       border-radius: 6px;
       font-size: 18px;
     }
+
     .whatsapp {
       background: #25D366;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <h1>CityCare Home Services</h1>
-    <p><b>Trusted Electrician & Plumber in Your Area</b></p>
 
+<header>
+  <h1>Sharma Electronics</h1>
+  <p>Home Appliances • Sales • Service • Repair</p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>About Us</h2>
     <p>
-      We provide fast and affordable home services including electrical repair,
-      plumbing, AC installation, and maintenance.
+      Sharma Electronics is your trusted local electronic shop providing
+      quality home appliances, accessories, and reliable repair services.
+      We focus on genuine products, fair pricing, and fast service.
     </p>
+  </div>
 
-    <h3>Our Services</h3>
+  <div class="section">
+    <h2>Products We Sell</h2>
+    <div class="grid">
+      <div class="card"><strong>LED & Smart TVs</strong>All Brands Available</div>
+      <div class="card"><strong>Refrigerators</strong>Single & Double Door</div>
+      <div class="card"><strong>Washing Machines</strong>Fully & Semi Automatic</div>
+      <div class="card"><strong>Air Conditioners</strong>Split & Window AC</div>
+      <div class="card"><strong>Microwave & Oven</strong>Latest Models</div>
+      <div class="card"><strong>Fans & Coolers</strong>Energy Efficient</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Repair & Services</h2>
+    <div class="grid">
+      <div class="card">TV Repair</div>
+      <div class="card">AC Installation & Service</div>
+      <div class="card">Fridge & Washing Machine Repair</div>
+      <div class="card">Electrical Fault Fixing</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Why Choose Us</h2>
     <ul>
-      <li>Electrical repair & wiring</li>
-      <li>Plumbing & leakage fixing</li>
-      <li>AC installation & servicing</li>
-      <li>Emergency home services</li>
+      <li>✔ Experienced technicians</li>
+      <li>✔ Genuine spare parts</li>
+      <li>✔ Quick home service</li>
+      <li>✔ Affordable pricing</li>
+      <li>✔ Trusted local shop</li>
     </ul>
+  </div>
 
+  <div class="section">
+    <h2>Contact Us</h2>
     <a class="btn" href="tel:9123456789">📞 Call Now</a>
     <a class="btn whatsapp" href="https://wa.me/919123456789">💬 WhatsApp Us</a>
-
-    <p><b>Service Area:</b> Your city & nearby locations</p>
+    <p><strong>Shop Address:</strong> Main Road, Your Area, Your City</p>
+    <p><strong>Working Hours:</strong> 10:00 AM – 9:00 PM (All Days)</p>
   </div>
+
+</div>
+
+<footer>
+  © 2026 Sharma Electronics. All Rights Reserved.
+</footer>
+
 </body>
 </html>
